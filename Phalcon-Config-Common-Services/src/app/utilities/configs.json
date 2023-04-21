@@ -1,0 +1,14 @@
+{
+    "database": {
+        "adapter": "Mysql",
+        "host": "localhost",
+        "username": "scott",
+        "password": "cheetah",
+        "dbname": "test_db"  
+    },
+    "models": {
+        "metadata": {
+            "adapter": "Memory"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<h1 class="bg-primary" style="text-align: center;">Select the Given Country</h1>
+<form action="index/display" method="post">
+    <div style="display: flex; margin:auto; width:40%">
+        <select class="mx-2" name="country" id="country">
+            <?php
+            $txt = "<option value=''>-Select-</option>";
+            foreach ($this->config as $key => $value) {
+                print_r($key);
+                echo "<option value=" . $key . ">" . $key . "</option>";
+            }
+            ?>
+        </select>
+        <input type="submit" value="Submit">
+    </div>
+</form>
